@@ -7,6 +7,6 @@
 # CSC510 - Software Engineering Repo
 HW1
 # Group Members:
-- Uddharsh Vasili
-- Sai Vineel Reddy Marreddy
-- Chandrakant Koneti
+- Uddharsh Vasili -uvasili
+- Sai Vineel Reddy Marreddy - smarred
+- Chandrakant Koneti - ckoneti
