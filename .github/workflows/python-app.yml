@@ -1,28 +1,36 @@
 name: Python application
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
 
 jobs:
-  build:
+  lint-and-test:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v4
       with:
-        python-version: '3.x'
+        python-version: "3.x"
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest pytest-cov coverage coveralls
+        pip install flake8 pytest pytest-cov coveralls
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Run tests with coverage
+    - name: Lint with flake8
       run: |
-          pytest --cov=./
-          
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: Test with pytest and generate coverage report
+      run: |
+        pytest --cov=./
     - name: Upload coverage to Coveralls
       run: coveralls
-      env: 
+      env:
         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-      continue-on-error: true
