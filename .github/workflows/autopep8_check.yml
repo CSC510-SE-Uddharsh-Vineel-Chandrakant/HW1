@@ -28,15 +28,3 @@ jobs:
         else
           echo "status=pass" >> $GITHUB_ENV
         fi
-          
-    - name: Create Awesome Badge
-      uses: schneegans/dynamic-badges-action@v1.7.0
-      with:
-          auth: ${{ secrets.GIST_SECRET }}
-          gistID: d4ba9dd4be23a0e47644e1126cb573ec
-          filename: autopep8.json # Use test.svg if you want to use the SVG mode.
-          label: Autopep8
-          message: ${{ env.status == 'pass' && 'Pass' || 'Fail' }}
-          color: ${{ env.status == 'pass' && 'brightgreen' || 'red' }}
-          namedLogo: react
-          logoColor: "#ffffff"
