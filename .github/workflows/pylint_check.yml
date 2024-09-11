@@ -1,4 +1,4 @@
-name: Autopep8 Check
+name: Pylint Check
 
 on: [push, pull_request]
 

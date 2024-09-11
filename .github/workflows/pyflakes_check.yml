@@ -1,4 +1,4 @@
-name: Autopep8 Check
+name: Pyflakes Check
 
 on: [push, pull_request]
 
