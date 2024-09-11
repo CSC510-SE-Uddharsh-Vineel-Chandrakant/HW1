@@ -6,7 +6,7 @@
 ![Codecov](https://img.shields.io/codecov/c/github/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1)
 
 ## Homework 2 Badges
-![Autopep8 Check](https://github.com/github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/workflows/Autopep8%20Check/badge.svg?branch=main)
+![Autopep8 Check](https://github.com/github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/autopep8_check.yml/badge.svg)
 
 # CSC510 - Software Engineering Repo
 HW1
