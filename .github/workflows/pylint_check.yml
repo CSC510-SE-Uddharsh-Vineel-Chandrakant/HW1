@@ -3,7 +3,7 @@ name: Pylint Check
 on: [push, pull_request]
 
 jobs:
-  Autopep8:
+  lint:
     runs-on: ubuntu-latest
 
     steps:
