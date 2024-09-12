@@ -7,7 +7,7 @@
 
 ## Homework 2 Badges
 ![Autopep8 Check](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/autopep8_check.yml/badge.svg)
-![Pyflake Check](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/pyflake_check.yml/badge.svg)
+![Pyflake Check](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/pyflakes_check.yml/badge.svg)
 ![Pylint Check](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/pylint_check.yml/badge.svg)
 
 # CSC510 - Software Engineering Repo
