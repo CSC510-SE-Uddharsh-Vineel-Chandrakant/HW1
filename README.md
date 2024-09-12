@@ -7,8 +7,8 @@
 
 ## Homework 2 Badges
 [![Autopep8 Check](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/autopep8_check.yml/badge.svg)](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/autopep8_check.yml)
-![Pyflakes Check](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/pyflakes_check.yml/badge.svg)(https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/pyflakes_check.yml)
-![Pylint Check](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/pylint_check.yml/badge.svg)(https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/pylint_check.yml)
+[![Pyflakes Check](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/pyflakes_check.yml/badge.svg)](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/pyflakes_check.yml)
+[![Pylint Check](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/pylint_check.yml/badge.svg)](https://github.com/CSC510-SE-Uddharsh-Vineel-Chandrakant/HW1/actions/workflows/pylint_check.yml)
 
 # CSC510 - Software Engineering Repo
 HW1 & HW2
