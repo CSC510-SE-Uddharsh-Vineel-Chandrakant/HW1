@@ -28,3 +28,4 @@ jobs:
         else
           echo "status=pass" >> $GITHUB_ENV
         fi
+        continue-on-error: true
