@@ -23,7 +23,7 @@ jobs:
     - name: Run autopep8
       run: |
         autopep8 --diff --ignore=E501 hw2/hw2_debugging.py hw2/rand.py | tee ./post_traces/autopep8_post.txt
-        if [ -s autopep8_post.txt ]; then
+        if [ -s ./post_traces/autopep8_post.txt ]; then
             echo "status=fail" >> $GITHUB_ENV
         else
           echo "status=pass" >> $GITHUB_ENV
