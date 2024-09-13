@@ -22,8 +22,8 @@ jobs:
 
     - name: Run pyflakes
       run: |
-        pyflakes hw2/hw2_debugging.py hw2/rand.py | tee pyflakes_trace-report.txt
-        if [ -s pyflakes_trace-report.txt ]; then
+        pyflakes hw2/hw2_debugging.py hw2/rand.py | tee ./post_traces/pyflakes_post.txt
+        if [ -s pyflakes_post.txt ]; then
             echo "status=fail" >> $GITHUB_ENV
         else
           echo "status=pass" >> $GITHUB_ENV
