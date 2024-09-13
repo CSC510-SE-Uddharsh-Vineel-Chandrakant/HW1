@@ -22,8 +22,8 @@ jobs:
 
     - name: Run pylint
       run: |
-        pylint hw2/hw2_debugging.py hw2/rand.py | tee pylint_trace-report.txt
-        if [ -s pylint_trace-report.txt ]; then
+        pylint hw2/hw2_debugging.py hw2/rand.py | tee ./post_traces/pylint_post.txt
+        if [ -s pylint_post.txt ]; then
             echo "status=fail" >> $GITHUB_ENV
         else
           echo "status=pass" >> $GITHUB_ENV
